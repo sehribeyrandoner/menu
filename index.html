@@ -438,6 +438,17 @@
     fill: currentColor;
   }
 
+  .old-price {
+  text-decoration: line-through;
+  color: #999;
+  margin-right: 8px;
+}
+
+.new-price {
+  color: #e53935; /* kırmızı indirim hissi */
+  font-weight: bold;
+}
+
   .reklam {
     text-decoration: none;
     color: #c9933a;
@@ -727,7 +738,7 @@
       <div class="menu-item"><div class="item-img"><img src="images/beyran.jpg" alt="" onerror="this.parentElement.innerHTML='🍲'"></div><div class="item-info"><div class="item-name">Beyran</div></div><div class="item-price">300 ₺</div></div>
       <div class="menu-item"><div class="item-img"><img src="images/beyran-yarim.jpg" alt="" onerror="this.parentElement.innerHTML='🍲'"></div><div class="item-info"><div class="item-name">Yarım Beyran</div></div><div class="item-price">200 ₺</div></div>
       <div class="menu-item"><div class="item-img"><img src="images/et-paca-buyuk.jpg" alt="" onerror="this.parentElement.innerHTML='🍲'"></div><div class="item-info"><div class="item-name">1.5 Porsiyon Et Paça</div></div><div class="item-price">450 ₺</div></div>
-      <div class="menu-item"><div class="item-img"><img src="images/et-paca.jpg" alt="" onerror="this.parentElement.innerHTML='🍲'"></div><div class="item-info"><div class="item-name">Et Paça</div></div><div class="item-price">300 ₺</div></div>
+      <div class="menu-item"><div class="item-img"><img src="images/et-paca.jpg" alt="" onerror="this.parentElement.innerHTML='🍲'"></div><div class="item-info"><div class="item-name">Et Paça</div></div><div class="item-price"><span class="old price">300</span><span class="new-price"></span></div></div>
       <div class="menu-item"><div class="item-img"><img src="images/et-paca-yarim.jpg" alt="" onerror="this.parentElement.innerHTML='🍲'"></div><div class="item-info"><div class="item-name">Yarım Et Paça</div></div><div class="item-price">200 ₺</div></div>
     </div>
   </section>
